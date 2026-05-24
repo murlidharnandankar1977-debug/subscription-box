@@ -143,7 +143,7 @@ function Plans() {
            </div>
 
             <div className="bg-blue-100 p-4 rounded-lg mt-4 flex justify-between font-bold">
-               <span>Total Value</span>
+             <span>Total Value</span>
                 <span>₹298</span>
                 </div>
                </>
