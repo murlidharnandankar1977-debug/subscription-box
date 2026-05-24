@@ -5,6 +5,10 @@ require("dotenv").config();
 
 const app = express();
 
+app.get("/", (req, res) => {
+  res.send("Backend Running Successfully 🚀");
+});
+
 app.use(cors());
 app.use(express.json());
 
